@@ -36,7 +36,7 @@ public class Main {
         //Задание-3.
 
         for (i = 0; i < array1.length; i++) {
-            for (j = 0; j < i; j++) {
+            for (j = 0; j <= i; j++) {
                 System.out.print(array1[i][j] + " ");
             }
             System.out.println();
